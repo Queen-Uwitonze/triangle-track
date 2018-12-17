@@ -22,11 +22,11 @@ button{
     background-color:blue;
     border: none;;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 32px;
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
 }
-.container{
-    justify-content: center
+.description{
+text-align:center;
 }
