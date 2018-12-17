@@ -15,32 +15,34 @@ Queen-Uwitonze,am web developer.
 i used google chrome and edit textor(like visual code.)
 
 ## BDD.
-I create a mark down table
+As a user,if you want to enter the length values of the three sides of the triangle in the application,and after submitting the values, the application should tell you what type of triangle the values will produce, whether an isosceles, equilateral, scalene or NO triangle at all.
+
 
 |       Behavior                      |    Input     |   Output          |
 | :---------------------------------- | :----------: | ------------------|
-| when i put in equal number,         |              |                   |
+| when i put in three equal number,   |              |                   |
 | it'll say the triangle is           |              |                   |
 | equirateral.                        | 60,60,60     | Equirateral       |
 |------------------------------------------------------------------------|
-| when i put in two equal             |              |                   |
-|  number and the third one is        |              |                   |
-|  different,it'll say the triangle   |              |                   |
-|  is isoscelene.                     | 45,45,90     | isoscelene        |
+| when i put in the sum of two        |              |                   |
+|  number that are equal and greater  |              |                   |
+| than the third one,it'll say the    |              |                   |
+|  triangle  is isoscelene.           | 45,45,90     | isoscelene        |
 |------------------------------------------------------------------------| 
-| when i put in different number,     |              |                   |     
-|  it'll say the triangle is          |              |                   |
+| when i put in three differents      |              |
+ number,it'll say the triangle is     |              |                   |
 | scalene.                            | 50,70,60     | Scalene           |
 |------------------------------------------------------------------------|
-| when i put in 0 in one of           |              |                   |
-| as number angles or sides,it'll say |              |                   |
-| the triangle is not existed.        | 89,11,0      | not a triangle    |
+| when i put in 0 as number angles or |              |                   |
+|sides,it'll say the triangle is not  |              |                   |
+| existed.                            | 89,11,0      | not a triangle    |
 |-----------------------------------------------------------------------\|
 
 ## Technologies used.
 html , css , javascript.
 
 ## Contact information.
+uwitonzeq@gmail.com
 
 ## License and Copyright information.
 

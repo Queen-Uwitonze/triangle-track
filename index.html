@@ -7,26 +7,27 @@
     </head>
 
     <body>
-        <h1>Triangle tracker</h1>
-        <p>There are three special names given to <strong>triangle</strong> that tell how many sides (or angles) are equal or not.</p>
-        <p>Here you can see differents 3 triangles,with differents characters:</p>
-        <h3>Formular to use</h3>
+        <div class="container">
+            <h1>Triangle tracker</h1>
+            <p>There are three special names given to <strong>triangle</strong> that tell how many sides (or angles) are equal or not.</p>
+            <p>Here you can see differents 3 triangles,with differents characters:</p>
+
+           <h3>Formular to use</h3>
+               Angle1 <input type="number" id="angle1">
+               Angle2 <input type="number" id="angle2">
+               Angle3 <input type="number" id="angle3">
+               <button onclick="triangleAngle()">display</button>
         
-        Angle <input type="number" id="angle1">
-        Angle <input type="number" id="angle2">
-        Angle <input type="number" id="angle3">
-        <button onclick="triangleAngle()">display</button>
-        
-        <h2 id="one">Equilateral Triangle</h2>
-            <p>It has three equal angles or sides, always 60°.</p>
+           <h2 id="one">Equilateral Triangle</h2>
+             <p>All three angles or sides are equal.</p>
            
         
-        <h2 id="two">Isosceles Triangle</h2>
-            <p>It has a right angle (90°) and also two equal angles or sides.</p>
+           <h2 id="two">Isosceles Triangle</h2>
+             <p>The sum of two equal angles or sides are greater than the third one.</p>
             
             
-        <h2 id="three">Scalene Triangle</h2>
-           <p>it has no equal side or no equal angles</p> 
-            
+           <h2 id="three">Scalene Triangle</h2>
+             <p>All  sides or angles are not equal..</p> 
+        </div>    
     </body> 
 </html>
