@@ -5,12 +5,14 @@ function triangleAngle() {
   var angle3 = parseInt(document.getElementById("angle3").value);
   
   
-  if(angle1 === angle2 && angle2 === angle3 && angle1 === angle3) {
-    console.log(alert("the triangle is Equirateral"));
-  } else if (angle1 === angle2 && angle1 + angle2 === angle3 ) {
-    console.log(alert("the triangle is Isosceles"));
-  } else if (angle1 !== angle2 && angle2 !== angle3 && angle1 !== angle3 && angle3!==0) {
-    console.log(alert("the triangle is Scalene"));
+  if (angle1+angle2>angle3 && angle1+angle3>angle2 && angle2+angle3>angle1){
+    if (angle1 === angle2 && angle2 === angle3 && angle1 === angle3) {
+      console.log(alert("the triangle is Equirateral"));
+    } else if (angle1===angle2 || angle2 === angle3 || angle1 === angle3) {
+      console.log(alert("the triangle is Isosceles"));
+    } else {
+      console.log(alert("the triangle is Scalene"));
+    }
   } else {
     console.log(alert("the triangle does not existed"));
   }
