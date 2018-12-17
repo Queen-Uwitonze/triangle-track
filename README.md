@@ -1,4 +1,4 @@
- #Project name
+#Project name
  ...
  TRIANGLE TRACKER.
  ...
@@ -36,3 +36,6 @@ html , css , javascript.
 <a href="https://github.com/Queen-Uwitonze" class="fa fa-github"></a>
 ## License and Copyright information.
 MIT copyright 2018 by Queen.All right reserved.
+=======
+# triangle-track
+>>>>>>> 7d4ec55d13ba19b7498fcd53d896ba3ebab2d1bd
