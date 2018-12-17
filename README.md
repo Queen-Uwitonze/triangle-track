@@ -35,7 +35,7 @@ As a user,if you want to enter the length values of the three sides of the trian
 |                                                                        |
 | when i put in 0 as number angles or |              |                   |
 |sides,it'll say the triangle is not  |              |                   |
-| existed.                            | 89,11,0      | not a triangle   \|
+| existed.                            | 89,11,0      | not a triangle    |
 
 ## Technologies used.
 html , css , javascript.
