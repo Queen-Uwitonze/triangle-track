@@ -4,7 +4,7 @@
  ...
 ## Project description.
 ...
-I will be building an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.
+I will be building an application that will help us know whether a triangle is isosceles(when it has two eqwals sides or angles), equilateral(when it has three equals sides or angles), scalene(when sides or angles are not equals) or NOT a triangle at all.
 ...
 ## Author(s) information.
 ...
@@ -16,10 +16,11 @@ i used google chrome and edit textor(like visual code.)
 
 ## BDD.
 I create a mark down table
+
 |       Behavior                      |    Input     |   Output          |
 | :---------------------------------- | :----------: | ------------------|
 | when i put in equal number,         |              |                   |
-|  it'll say the triangle is          |              |                   |
+| it'll say the triangle is           |              |                   |
 | equirateral.                        | 60,60,60     | Equirateral       |
 |------------------------------------------------------------------------|
 | when i put in two equal             |              |                   |
